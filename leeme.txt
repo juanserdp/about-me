@@ -1,0 +1,2 @@
+Nota: algunas ideas para portafolio, una pagina con react, una pagina solo javascroipt, una pagina solo html, css y javascroipt
+en android, una con solo kotlin, otra solo javascroipt

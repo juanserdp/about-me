@@ -1,0 +1,58 @@
+.contacto {
+    /* DIMENSIONES */
+    height: 400px;
+    background-color: #2C4859;
+
+    /* FLEX */
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacto .titulo {
+    /* DIMENSIONES */
+    width: 100%;
+    height: 70px;
+
+    /* FLEX */
+    display: flex;
+    justify-content: center;
+
+    /* COLOR */
+}
+.contacto .titulo h2 {
+    /* COLOR */
+    color: #F2E6DF;
+
+    /* DIMENSIONES */
+    width: max-content;
+    height: max-content;
+
+    /* TEXTO */
+    text-align: center;
+}
+
+.contacto .correo {
+    /* COLOR */
+    color: #F2E6DF;
+
+    /* DIMENSIONES */
+    width: 49%;
+
+    /* TEXTO */
+    text-align: center;
+}
+.contacto .datos {
+    /* COLOR */
+    color: #F2E6DF;
+
+    /* DIMENSIONES */
+    width: 49%;
+
+    /* TEXTO */
+    text-align: center;
+}
+
+#correoElectronico {
+    margin: 2px 2px;
+    word-break: break-all;
+
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sebastian Rodriguez</title>
+    <!--Metadata-->
+    <meta name="author" content="Juan Sebastian Rodriguez Picon">
+    <meta name="description" content="Desarrollo web">
+    <meta name="keywords" content="pagina web desarrollo web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Enlaces a estilos -->
+    <link rel="stylesheet" href="../styles/cuerpo.css">
+    <link rel="stylesheet" href="../styles/navegacion.css">
+    <link rel="stylesheet" href="../styles/biografia.css">
+    <link rel="stylesheet" href="../styles/miViaje.css">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/html.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+<body id="cuerpo">
+    <header>
+        <nav class="navegacion" id="navegador">
+            <a href="../index.html">Inicio</a>
+            <a href="./aprende.html">Aprende</a>
+            <a href="#biografia">Biografia</a> <!-- Estoy aquí -->
+            <a href="./blog.html">Blog</a>
+            <a href="./portafolio.html">Portafolio</a>
+        </nav>
+    </header>
+
+    <section class="biografia" id="biografia" onclick="viajar('viaje')">
+        <img src="../assets/fotoPerfil.jpg" id="fotoPerfil" />
+        <br/><br/><br/><br/>
+        <h1>Juan Sebastian Rodriguez Picon</h1>
+        <p>
+            Soy desarrollador de aplicaciones web y aplicaciones android
+            de  la ciudad de Bucaramanaga formado en la Universidad de 
+            con estudios tecnicos en desarrolo de aplicaciones moviles del SENA con 
+            1 año de experiencia trabajando de manera independiente. Aspiro
+            a ser desarrolador fullstack en el año 2023.
+
+        </p>
+        <br>
+    </section>
+
+
+    <section class="miViaje" id="viaje" onclick="viajar('contacto')">
+        <br>
+        <h2>Mi viaje</h2>
+        <div class="linea-tiempo">
+            <div class="momento">
+                <h3>2015</h3>
+                <div class="descripcion">
+                    Aprendo Python.
+                </div>
+            </div>
+            <div class="momento">
+                <h3>2020</h3>
+                <div class="descripcion">
+                    Aprendo Java.
+                </div>
+            </div>
+            <div class="momento">
+                <h3>2021</h3>
+                <div class="descripcion">
+                    Finalizo mis estudios tecnicos en desarrollo de aplicaciones web en la Universidad de Antioquia.
+                </div>
+            </div>
+            <div class="momento">
+                <h3>2022</h3>
+                <div class="descripcion">
+                    Finalizo mis estudios tecnicos en desarrollo de aplicaciones moviles en el SENA.
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="contacto" id="contacto">
+        <br />
+        <div class="titulo">
+            <h2>Contacto</h2>
+        </div>
+        <div class="correo">
+            <h3>Escribeme un correo</h3>
+            <form action="mailto:sebastianrodriguezpicon@gmail.com" enctype=”multipart/form-data” method="post"
+                name="EmailForm">
+                <label for="fname">Mensaje:</label>
+                <br/><br/>
+                <textarea name="message" rows="5" cols="18">
+                </textarea>
+                <br/><br/>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="datos">
+            <div>
+                <h3>Direccion:</h3>
+                <p>Carrera 8 # 8 - 23. Casco Antiguo</p>
+            </div>
+
+            <div>
+                <h3>Celular:</h3>
+                <p>3154614520</p>
+            </div>
+
+            <div>
+                <h3>Email:</h3>
+                <p id="correoElectronico">sebastianrodriguezpicon@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="desarrollado" >
+        Desarrollado por Juan Sebastian Rodriguez Picon
+    </footer>
+    <script src="../scripts/biografia.js"></script>
+    <script src="../scripts/textos.js"></script>
+</body>
+
+</html>

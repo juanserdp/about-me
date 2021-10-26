@@ -1,0 +1,65 @@
+.biografia {
+    /* DIMENSIONES */
+    height: max-content;
+    background-color: #F2E6DF;
+}
+
+.biografia h1 {
+    height: max-content;
+    color: #0D0D0D;
+    /* TEXTO */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.biografia p {
+    color: #0D0D0D;
+
+    /* DIMENSIONES */
+    width: 800px;
+    height: max-content;
+    /* POSICION */
+    position: relative;
+    left: calc(50% - 400px);
+
+    /* TEXTO */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+#fotoPerfil {
+    /* DIMENSIONES */
+    width: 300px;
+
+    /* BOX */
+    box-shadow: 5px 5px 5px 0px #333;
+
+    /* BORDES */
+    border-radius: 50%;
+    border: 5px solid #733F3F;
+
+    /* DISPLAY */
+    display: block;
+    position: relative;
+    left: calc(50% - 150px);
+    top: 50px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 900px) {
+    .biografia p {
+        all: initial;
+        color: #0D0D0D;
+        /* BOX DESGIN */
+        display: block;
+
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        /* TEXTO */
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+    }
+}
+

@@ -1,0 +1,134 @@
+.navegacion {
+    /* BACKGROUND */
+    
+    /* COLORES */
+    background-color: #929CA6;
+
+    /* DIMENSIONES */
+    height: 80px;
+
+    /* DISPLAY */
+    display: flex;
+
+    /* FLEX DESIGN */
+    align-items: center;
+    justify-content: center;
+
+}
+@keyframes movimientoTeclas{
+    from {bottom: 0;}
+    to {bottom: 20px;}
+}
+.navegacion a {
+
+    /* BOX */
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px #333;
+
+    /* BOX MODEL */
+    margin: 2px;
+
+    /* BORDES */
+    border: solid #242424;
+    border-width: 0px 10px 15px 15px;
+    border-radius: 5px;
+
+    /* COLORES */
+    background-color: rgb(53, 53, 53);
+    color: white;
+
+    /* DIMENSIONES */
+    width: 200px;
+    height: 80px;
+
+    /* DISPLAY */
+    display: flex;
+    top: 20px;
+
+    /* FLEX DESIGN */
+    align-items: center;
+    justify-content: center;
+
+    /* TEXTO */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+
+}
+
+.navegacion div {
+    /* TEXTO */
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: rgb(53, 53, 53);
+}
+
+.navegacion a:active {
+    /* BORDES */
+    border-width: 0px 10px 12px 12px;
+
+    /* BOX */
+    box-shadow: 0px 0px 10px 2px #333;
+
+    /* COLOR */
+    color:#F2E6DF;
+}
+
+/* RESPONSIVE*/
+
+@media only screen and (max-width: 1020px) {
+
+    .navegacion {
+        all: initial;
+        
+        /* COLORES */
+        background-color: #929CA6;
+    
+        /* DIMENSIONES */
+        height: 410px;
+    
+        /* DISPLAY */
+        display: block;
+    }
+    .navegacion a {
+        all: initial;
+
+        /* BOX */
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px 0px #333;
+
+        /* BOX MODEL */
+        margin: 2px;
+
+        /* BORDES */
+        border: solid #242424;
+        border-width: 0px 10px 15px 15px;
+        border-radius: 5px;
+
+        /* COLORES */
+        background-color: rgb(53, 53, 53);
+        color: white;
+
+        /* DIMENSIONES */
+        width: 200px;
+        height: 80px;
+
+        /* DISPLAY */
+        position: relative;
+        display: flex;
+        left: calc(50% - 100px);
+
+        /* FLEX DESIGN */
+        align-items: center;
+        justify-content: center;
+
+        /* TEXTO */
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: none;
+    }
+}
